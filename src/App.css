@@ -1,0 +1,39 @@
+.loader:after{
+    content: "";
+    font-weight: 600;
+    font-size: 100px;
+    color: rgb(170, 199, 40);
+    animation-name: animatingtext;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animatingtext{
+    0% { content: "T";}
+    10% { content: "TE";}
+    20% { content: "TEX";}
+    30% { content: "TEXT";}
+    40% { content: "TEXT F";}
+    50% { content: "TEXT FO";}
+    60% { content: "TEXT FOR";}
+    70% { content: "TEXT FORM";}
+    80% { content: "TEXT FORNA";}
+    90% { content: "TEXT FORMA";}
+    100% { content: "TEXT FORMAT............";}
+}
+
+.navbar-brand{
+    font-weight: 500;
+    color: blueviolet;
+}
+.card-header{
+    background-color: rgb(230, 230, 55);
+    font-weight: 600;
+}
+.card-body{
+    background-color: #DB26AE;
+}
+.card-footer{
+    background-color: rgb(230, 230, 55);
+    font-weight: 600
+}
